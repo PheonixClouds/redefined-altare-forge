@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { LiveBadge } from "@/components/ui/live-badge";
-import heroImage from "@/assets/hero-minecraft.jpg";
+import heroImage from "@/assets/hero-purple.jpg";
 
 export function Hero() {
   return (
@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Minecraft server hosting with futuristic elements"
+          alt="Gaming server hosting with futuristic purple elements"
           className="w-full h-full object-cover opacity-30"
         />
         <div className="absolute inset-0 gradient-hero" />

@@ -44,10 +44,10 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="xl" className="animate-pulse-glow">
+            <Button variant="hero" size="xl" className="animate-pulse-glow" onClick={() => window.open('https://discord.gg/altarehost', '_blank')}>
               🎮 Start Your Server Now
             </Button>
-            <Button variant="secondary" size="xl">
+            <Button variant="secondary" size="xl" onClick={() => window.open('https://discord.gg/altarehost', '_blank')}>
               📊 View Server Stats
             </Button>
           </div>

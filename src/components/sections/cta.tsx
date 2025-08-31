@@ -19,10 +19,10 @@ export function CTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-          <Button variant="gaming" size="xl" className="text-xl px-10 py-6">
+          <Button variant="gaming" size="xl" className="text-xl px-10 py-6" onClick={() => window.open('https://discord.gg/altarehost', '_blank')}>
             🎮 Create Your Server Now
           </Button>
-          <Button variant="outline" size="xl" className="border-2">
+          <Button variant="outline" size="xl" className="border-2" onClick={() => window.open('https://discord.gg/altarehost', '_blank')}>
             💬 Talk to Our Team
           </Button>
         </div>
